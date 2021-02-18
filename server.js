@@ -1,6 +1,6 @@
 'use strict';
 
-const { request, response } = require('express');
+// const { request, response } = require('express');
 // require('dotenv').config();
 // const express = require('express');
 // const app = express();
@@ -26,7 +26,7 @@ const { request, response } = require('express');
 
 // app.listen(PORT,() => console.log(`Listening on port ${PORT}`));
 
-
+require('dotenv').config();
 const express = require('express');
 const server = express();
 const PORT = process.env.PORT || 3000;
