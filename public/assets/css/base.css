@@ -35,10 +35,10 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: large;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
